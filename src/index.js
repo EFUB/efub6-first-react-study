@@ -1,15 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import reportWebVitals from "./reportWebVitals";
-import CommentList from "./chapter_05/CommentList";
+import ReactDOM from 'react-dom';
+import './index.css';
+import App form './App';
+import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+import Library from "../../clock-app/src/Library";
+import Accomodate from "../../clock-app/src/week3/Accomodate";
 
-  root.render(
+ReactDOM.render{
     <React.StrictMode>
-      <CommentList />
+        <Accomodate/>
     </React.StrictMode>
-  );
+    document.getElementById('root')
+};
 
 reportWebVitals();
