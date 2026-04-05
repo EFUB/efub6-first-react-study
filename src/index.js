@@ -5,11 +5,14 @@ import App form './App';
 import reportWebVitals from './reportWebVitals';
 
 import Library from "../../clock-app/src/Library";
-import Accomodate from "../../clock-app/src/week3/Accomodate";
+import Accomodate from ''../../clock-app/src/week3/Accomodate';
+import ConfirmButton from '../../clock-app/src/week4/ConfirmButton';
+import LandingPage from '../../clock-app/src/week4/LandingPage';
+
 
 ReactDOM.render{
     <React.StrictMode>
-        <Accomodate/>
+        <LandingPage/>
     </React.StrictMode>
     document.getElementById('root')
 };
